@@ -6,18 +6,18 @@ import Service from "../service/service";
 import Prices from "../prices/prices";
 import Footer from "../footer/footer";
 
-function App() { 
-    return (
-        <div>
-            <Header />
-            <Promo />
-            <Services />
-            <First />
-            <Service />
-            <Prices />
-            <Footer/>
-        </div>
-    )
+function App() {
+  return (
+    <>
+      <Header />
+      <Promo />
+      <Services />
+      <First />
+      <Service />
+      <Prices />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

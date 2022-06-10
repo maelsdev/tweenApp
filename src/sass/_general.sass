@@ -17,6 +17,7 @@ nav
 		padding: 13px 70px
 		margin: 0
 		list-style-type: none
+
 		&_item
 			border-right: 2px dashed red
 			padding-right: 72px
@@ -24,9 +25,12 @@ nav
 				font-weight: 500
 				font-size: 15px
 				color: #FFFFFF
-				color: #FFFFFF
+				transition: 0.5s all
 			&:last-child
 				border: none
+		&_active
+			a
+				color: #f70606
 
 .subheader
 	height: 87px
